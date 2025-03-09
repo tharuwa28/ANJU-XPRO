@@ -40,7 +40,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~TRlHzLIC#F7D61LmHoE7wog7ot6Rn6-A6ee4yYIwv5cXMQrD1XNs",
+SESSION_ID: process.env.SESSION_ID || "",
 SUDO: process.env.SUDO || ["94762862143","94758775628"],
 PORT: process.env.PORT || "8000",
 FOOTER: process.env.FOOTER || "> FILM WORLD UPLOAD BY THARUSHA>\.",
